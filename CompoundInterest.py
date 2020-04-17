@@ -1,0 +1,5 @@
+print("Amount in $:")
+Savings = float(input())
+print("Amount after one year in $:" , round((Savings * 1.04), 2))
+print("Amount after two year in $:" , round((Savings * (1.04) ** 2), 2))
+print("Amount after three year in $:" , round((Savings * (1.04) ** 3), 2))
